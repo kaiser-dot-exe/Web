@@ -3,8 +3,6 @@ import sqlite3
 from dotenv import load_dotenv
 import os
 
-# app = Flask(__name__)
-# app.secret_key = "gizli_anahtar"
 
 load_dotenv()
 app = Flask(__name__)
