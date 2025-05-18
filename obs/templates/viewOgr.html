@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3>Akademik Başarılı Oğrenciler </h3>
+<br>
+<table>
+
+
+    <tr>
+
+        <td> İsim</td>
+        <td> Soyisim</td>
+
+
+
+    </tr>
+    {%for row in rows%}
+    <tr>
+        <td> {{ row["ad"] }}</td>
+        <td> {{ row["soyad"] }}</td>
+
+
+    </tr>
+    {%endfor%}
+    <br></br>
+</table>
+<a href="/">Geri</a>
+</body>
+</html>
